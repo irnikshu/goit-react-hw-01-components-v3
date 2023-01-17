@@ -1,0 +1,38 @@
+.containerTable {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    width: 800px;
+    border: none;
+    margin-bottom: 20px;
+    border-collapse: separate;
+
+}
+
+.table thead th {
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    background: #0ec9db;
+    font-size: 18px;
+    border-top: 1px solid rgb(17, 214, 135);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.table tbody td {
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: top;
+    text-align: center;
+    border: 1px solid #595959;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #c9e3fe;
+
+}
